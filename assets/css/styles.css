@@ -19,7 +19,7 @@ body {
     font-family: "Sora", sans-serif;
 }
 
-/*========== Commmon ========== */
+/*========== Common ========== */
 a {
     text-decoration: none;
 }
@@ -50,6 +50,22 @@ a {
 .btn:hover {
     opacity: 0.9;
     cursor: pointer;
+}
+
+.section-heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.section-desc {
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
 }
 
 /*========== Header ========== */
@@ -221,6 +237,88 @@ a {
     height: 410px;
 }
 
-/*========== Commmon ========== */
+/*========== Service ========== */
+.service {
+    padding: 170px 0px;
+}
+
+.service__heading,
+.service__desc {
+    text-align: center;
+}
+
+.service__desc {
+    width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service__row {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-img {
+    width: 570px;
+    height: 570px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.service__list {
+    margin-bottom: 55px;
+}
+
+.service-item {
+    width: 470px;
+    padding: 21px;
+    display: flex;
+    align-items: flex-start;
+    gap: 19px;
+    border-radius: 10px;
+    background: #fff;
+    transition: 0.25s;
+}
+
+.service-item:hover {
+    position: relative;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+.service-item:hover .service-item__icon {
+    background: #2E80CE;
+    color: #fff;
+}
+
+.service-item__heading {
+    color: #10375c;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.27;
+}
+
+.service-item__desc {
+    margin-top: 8px;
+    color: #575f66;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.service-item__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: #10375c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #eff6fd;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+    transition: 0.25s;
+}
+
 /*========== Commmon ========== */
 /*========== Commmon ========== */
