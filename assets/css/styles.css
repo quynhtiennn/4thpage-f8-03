@@ -439,7 +439,7 @@ a {
 }
 
 .member-item:hover .member-item__thumb {
-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .member-item__img-bg {
@@ -484,7 +484,7 @@ transform: scale(1.1);
     align-items: center;
     width: 36px;
     height: 36px;
-    color: #575F66;
+    color: #575f66;
     border-radius: 50%;
     border: 1px solid #575f66;
     outline: none;
@@ -495,13 +495,56 @@ transform: scale(1.1);
 .member__control-btn:hover {
     cursor: pointer;
     color: #fff;
-    border-color: #2E80CE ;
-    background: #2E80CE;
+    border-color: #2e80ce;
+    background: #2e80ce;
 }
 
 .next-icon {
     rotate: 180deg;
 }
-/*========== Commmon ========== */
+
+/*========== Install ========== */
+.install {
+    padding: 180px 0 85px;
+}
+
+.install__inner {
+    padding: 0px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    width: 56.9%;
+}
+
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    gap: 28px;
+}
+
+
+
 /*========== Commmon ========== */
 /*========== Commmon ========== */
